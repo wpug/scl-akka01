@@ -2,6 +2,6 @@ name := "AkkaIntro"
 
 version := "0.0.1"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.12.4"
 
-libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.4.1"
+libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.5.6"
