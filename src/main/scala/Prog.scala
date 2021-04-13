@@ -10,7 +10,7 @@ object Prog {
 	def main(args: Array[String]): Unit = {
 		println("Hello Akka!")
 		val system = ActorSystem("system")
-		val john = system.actorOf(Props[MyActor], "john")
+		val john = system.actorOf(Props[MyActor](), "john")
 		john ! 123
 	}
 }
